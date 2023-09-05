@@ -14,8 +14,7 @@ main()
     consoleinit();
     printfinit();
     printf("\n");
-    printf("xv6 kernel is booting\n");
-    printf("\n");
+    printf("EEE3535 Operating Systems: booting xv6-riscv kernel\n");
     kinit();         // physical page allocator
     kvminit();       // create kernel page table
     kvminithart();   // turn on paging
